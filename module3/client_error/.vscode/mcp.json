@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "client-error-server": {
+      "command": "python",
+      "args": ["server.py"],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}

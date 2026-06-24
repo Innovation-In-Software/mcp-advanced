@@ -1,0 +1,15 @@
+Hello, World!
+
+Welcome to this sample Markdown document. This file demonstrates some of the most common Markdown elements used for documentation, notes, and technical content.
+
+Introduction
+
+Markdown is a lightweight markup language that allows you to create formatted text using a simple, readable syntax. It is commonly used for:
+
+Documentation
+README files
+Knowledge bases
+Technical blogs
+AI-generated content
+Example Code
+print("Hello, World!")

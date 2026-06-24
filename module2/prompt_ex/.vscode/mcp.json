@@ -1,0 +1,12 @@
+{
+	"servers": {
+		"code-review-server": {
+			"type": "stdio",
+			"command": "python",
+			"cwd": "${workspaceFolder}",
+			"args": [
+				"server.py"
+			]
+		}
+	}
+}

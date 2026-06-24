@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "customer-server": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "server.py"
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "servers": {
+    "custom-github-oauth": {
+      // Starts the local custom MCP server.
+      "type": "stdio",
+
+      // Use your Python environment here.
+      // On Windows this might be:
+      // "command": "python"
+      "command": "python",
+
+      // The MCP server file.
+      "args": [
+        "server.py"
+      ],
+
+      // Environment variables passed to the MCP server.
+      "env": {
+        // This token should come from a GitHub OAuth2 flow.
+        // It represents one specific GitHub account.
+        // Do NOT hard-code real tokens in shared files.
+         "GITHUB_OAUTH_TOKEN": "${input:github_oauth_token2}"
+      }
+    }
+  },
+
+  "inputs": [
+    {
+      // The MCP client prompts you for the OAuth token.
+      "id": "github_oauth_token2",
+      "type": "promptString",
+      "description": "GitHub OAuth2 access token for the specific GitHub account",
+      "password": true
+    }
+  ]
+}

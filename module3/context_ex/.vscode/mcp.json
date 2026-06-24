@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "context-demo-server": {
+      "command": "python",
+      "args": ["server.py"],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}

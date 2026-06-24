@@ -1,0 +1,29 @@
+{
+  "inputs": [
+    {
+      "id": "jwt_secret",
+      "type": "promptString",
+      "description": "Enter the JWT secret key",
+      "password": true
+    },
+    {
+      "id": "jwt_token",
+      "type": "promptString",
+      "description": "Enter the JWT token",
+      "password": true
+    }
+  ],
+  "servers": {
+    "jwt-bank": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "server.py"
+      ],
+      "env": {
+        "JWT_SECRET": "${input:jwt_secret}",
+        "JWT_TOKEN": "${input:jwt_token}"
+      }
+    }
+  }
+}
