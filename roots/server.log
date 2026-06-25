@@ -1,0 +1,36 @@
+INFO:docket.worker:Starting worker 'DonisLaptopBig#46608' with the following tasks:
+INFO:docket.worker:* trace(message: str, ...)
+INFO:docket.worker:* fail(message: str, ...)
+INFO:docket.worker:* sleep(seconds: float, ...)
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:roots-demo-server:Server requested roots:
+INFO:roots-demo-server:  Project A: file:///C:/Code/MCP%20Advanced/roots/project_a
+INFO:mcp.server.lowlevel.server:Processing request of type ListToolsRequest
+INFO:roots-demo-server:Received notifications/roots/list_changed from client
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:roots-demo-server:Server requested roots:
+INFO:roots-demo-server:  Project B: file:///C:/Code/MCP%20Advanced/roots/project_b
+INFO:docket.worker:Starting worker 'DonisLaptopBig#52824' with the following tasks:
+INFO:docket.worker:* trace(message: str, ...)
+INFO:docket.worker:* fail(message: str, ...)
+INFO:docket.worker:* sleep(seconds: float, ...)
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:roots-demo-server:Server requested roots:
+INFO:roots-demo-server:  Project A: file:///C:/Code/MCP%20Advanced/roots/project_a
+INFO:mcp.server.lowlevel.server:Processing request of type ListToolsRequest
+INFO:roots-demo-server:Received notifications/roots/list_changed from client
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:roots-demo-server:Server requested roots:
+INFO:roots-demo-server:  Project B: file:///C:/Code/MCP%20Advanced/roots/project_b
+INFO:docket.worker:Starting worker 'DonisLaptopBig#50924' with the following tasks:
+INFO:docket.worker:* trace(message: str, ...)
+INFO:docket.worker:* fail(message: str, ...)
+INFO:docket.worker:* sleep(seconds: float, ...)
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:roots-demo-server:Server requested roots:
+INFO:roots-demo-server:  Project A: file:///C:/Code/MCP%20Advanced/roots/project_a
+INFO:mcp.server.lowlevel.server:Processing request of type ListToolsRequest
+INFO:roots-demo-server:Received notifications/roots/list_changed from client
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:roots-demo-server:Server requested roots:
+INFO:roots-demo-server:  Project B: file:///C:/Code/MCP%20Advanced/roots/project_b

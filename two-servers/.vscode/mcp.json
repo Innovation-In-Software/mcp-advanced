@@ -1,0 +1,24 @@
+{
+  "servers": {
+    "arithmetic-tools": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "--project",
+        "${workspaceFolder}",
+        "servers/arithmetic/server.py"
+      ]
+    },
+    "geometry-series-tools": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "--project",
+        "${workspaceFolder}",
+        "servers/geometry/server.py"
+      ]
+    }
+  }
+}

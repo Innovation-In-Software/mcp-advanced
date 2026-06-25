@@ -1,0 +1,24 @@
+{
+  "name": "convert_to_markdown",
+  "description": "Converts a file to Markdown format",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "uri": {
+        "type": "string",
+        "description": "The file URI to convert",
+        "pattern": "^file://"
+      },
+      "max_size_kb": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 1000
+      },
+      "format": {
+        "type": "string",
+        "enum": ["gfm", "commonmark", "obsidian"]
+      }
+    },
+    "required": ["uri"]
+  }
+}

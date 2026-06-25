@@ -1,0 +1,12 @@
+[project]
+name = "two-mcp-servers"
+version = "0.1.0"
+description = "Workspace with two MCP servers exposed through a single VS Code MCP config"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.28,<2",
+]
+
+[tool.uv]
+package = false

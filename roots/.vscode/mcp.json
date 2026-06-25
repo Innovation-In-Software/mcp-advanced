@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "roots-demo-server": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "server.py"
+      ],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}
